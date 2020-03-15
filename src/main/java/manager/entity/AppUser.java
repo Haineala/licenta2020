@@ -30,6 +30,17 @@ public class AppUser {
 	
 	@Column(name="enabled", nullable = false)
 	private boolean enabled;
+	
+	
+	public AppUser(Integer id, String firstName, String lastName, String email, String password, boolean enabled) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.password = password;
+		this.enabled = enabled;
+	}
 
 	/**
 	 * @return the id
