@@ -10,7 +10,7 @@ public class LoggedOutController {
 	@GetMapping("/logOut")
 	public String getLoggedOutView(Model model)
 	{
-		return "views/LogOutView";
+		return "views/loggedOutView";
 	}
 
 }
