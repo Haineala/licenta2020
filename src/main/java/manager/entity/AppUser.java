@@ -44,7 +44,6 @@ public class AppUser {
 	private List<Role> roles;
 
 	
-	
 	public AppUser(Integer id, String firstName, String lastName, String email, String password, boolean enabled) {
 		super();
 		this.id = id;
