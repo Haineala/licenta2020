@@ -118,6 +118,20 @@ public class AppUser {
 	}
 
 	/**
+	 * @return the roles
+	 */
+	public List<Role> getRoles() {
+		return roles;
+	}
+
+	/**
+	 * @param roles the roles to set
+	 */
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
+	}
+
+	/**
 	 * @param password the password to set
 	 */
 	public void setPassword(String password) {
